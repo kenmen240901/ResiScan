@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Record"
+                android:textSize="24sp"
+                android:padding="12dp"
+                android:gravity="center_horizontal"
+                android:background="@color/red_main"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:id="@+id/form_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/form_container"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/wing_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wing:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <Spinner
+                    android:id="@+id/wing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Wing"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="text"
+                    android:textColor="@color/red_alt"/>
+
+                <TextView
+                    android:id="@+id/title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <Spinner
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Title"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="text"
+                    android:textColor="@color/red_alt"/>
+
+                <TextView
+                    android:id="@+id/fname_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter First Name"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:padding="13dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="textCapSentences"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/lname_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <EditText
+                    android:id="@+id/lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Last Name"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:padding="13dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="textCapSentences"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/fno_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flat Number:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <EditText
+                    android:id="@+id/fno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Flat No."
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:padding="13dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/res_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Res-Type:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <Spinner
+                    android:id="@+id/res"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Resident Type"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="text"
+                    android:textColor="@color/red_alt"/>
+
+                <TextView
+                    android:id="@+id/vtype_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Type:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <Spinner
+                    android:id="@+id/vtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Vehicle Type"
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="text"
+                    android:textColor="@color/red_alt"/>
+
+                <TextView
+                    android:id="@+id/vno_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Number:"
+                    android:textSize="18sp"
+                    android:textColor="@color/red_alt"/>
+
+                <EditText
+                    android:id="@+id/vno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Vehicle No."
+                    android:background="@drawable/input_box"
+                    android:textSize="18sp"
+                    android:padding="13dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status: Active"
+                    android:textSize="24sp"
+                    android:textColor="@color/red_alt"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:id="@+id/generateBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Generate QR"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textColor="@color/white_alt"
+                    android:backgroundTint="@color/red_alt"/>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/red_alt"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

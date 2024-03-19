@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg_blur"
+    tools:context=".ScannerActivity">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/logout_24px"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="12dp"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/scanBtn"
+        android:padding="16dp"
+        android:layout_marginBottom="120dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Key"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key1"
+                android:text="Name"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value1"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key2"
+                android:text="Flat"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value2"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key3"
+                android:text="Resident Type"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value3"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow> <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key4"
+                android:text="Vehicle Type"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value4"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow> <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key5"
+                android:text="Vehicle no."
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value5"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow> <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/key6"
+                android:text="Status"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value6"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_alt"
+                android:background="@drawable/table_border"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Scan QR Code"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red_alt"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ResiScan" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white_alt</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/white_alt</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white_alt</item>
+        <item name="colorSecondaryVariant">@color/red_alt</item>
+        <item name="colorOnSecondary">@color/red</item>
+        <item name="colorOnSurface">@color/white_alt</item>
+        <item name="colorOnSurfaceVariant">@color/white_alt</item>
+        <item name="colorSurfaceContainerHigh">@color/red_alt</item>
+
+        <item name="android:statusBarColor">@color/red_main</item>
+    </style>
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/red_alt</item>
+        <item name="colorControlActivated">@color/red_alt</item>
+    </style>
+</resources>

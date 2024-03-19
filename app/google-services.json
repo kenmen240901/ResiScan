@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848975662834",
+    "project_id": "resiscan-8c150",
+    "storage_bucket": "resiscan-8c150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848975662834:android:777bcc708dcbb72e764a6b",
+        "android_client_info": {
+          "package_name": "com.example.resiscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKP_kIRYbcY7iXA9TnDZui_VDyVeC-h4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
